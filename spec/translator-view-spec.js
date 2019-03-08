@@ -3,7 +3,7 @@
 import TranslatorView from '../lib/translator-view';
 
 describe('TranslatorView', () => {
-  it('has one valid test', () => {
-    expect('life').toBe('easy');
-  });
+	it('has one valid test', () => {
+		expect('life').toBe('easy');
+	});
 });

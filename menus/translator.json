@@ -1,26 +1,18 @@
 {
   "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle translator",
-        "command": "atom-translator-tooltips:toggle"
-      }
-    ]
+    "atom-text-editor": [{
+      "label": "Toggle translator",
+      "command": "atom-translator-tooltips:toggle"
+    }]
   },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "translator",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "atom-translator-tooltips:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "translator",
+      "submenu": [{
+        "label": "Toggle",
+        "command": "atom-translator-tooltips:toggle"
+      }]
+    }]
+  }]
 }
